@@ -28,6 +28,7 @@ Plug 'christoomey/vim-tmux-navigator'
 
 " AutoComplete
 Plug 'SirVer/ultisnips'
+Plug 'keelii/vim-snippets'
 Plug 'neoclide/coc.nvim', {'branch': 'master', 'do': 'yarn install --frozen-lockfile'}
 "Plug 'neoclide/coc.vim',{'branch':'release'}
 

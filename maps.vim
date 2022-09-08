@@ -48,8 +48,8 @@ map <leader>l :tabnext<cr>
 map <leader>ob :Buffers<cr>
 
 " Faster scrolling
-nnoremap kk 10k
-nnoremap jj 10j
+" nnoremap kk 10k
+" nnoremap jj 10j
 nmap <leader>es <Plug>(easymotion-s2)
 
 " Remap keys for gotos
