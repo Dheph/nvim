@@ -38,7 +38,7 @@ Plug 'janko-m/vim-test'
 
 " IDE
 Plug 'editorconfig/editorconfig-vim'
-Plug 'junegunn/fzf', {'do': { -> fzf#install() }}
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 Plug 'terryma/vim-multiple-cursors'
 Plug 'easymotion/vim-easymotion'
@@ -51,7 +51,6 @@ Plug 'ianks/vim-tsx'
 
 " Git
 Plug 'tpope/vim-fugitive'
-
 Plug 'tpope/vim-repeat'
 
 

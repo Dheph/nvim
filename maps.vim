@@ -26,6 +26,7 @@ cnoreabbrev diff Gdiff
 " Plugs
 map <leader>nt :NERDTreeFocus<cr>
 map <leader>n :NERDTreeFind<cr>
+map <leader>nu :NERDTreeRefreshRoot<cr>
 map <leader>k :CocCommand prettier.formatFile <cr>
 map <c-p> :Files<cr>
 map <c-f> :Ag<cr>
@@ -62,7 +63,7 @@ nmap <silent> gr <Plug>(coc-references)
 nnoremap <leader>G :G<cr>
 nnoremap <leader>gp :Gpush<cr>
 nnoremap <leader>gl :Gpull<cr>
-
+"
 " Run current file
 
 nnoremap <leader>x :!node %<cr>
